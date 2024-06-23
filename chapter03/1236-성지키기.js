@@ -37,4 +37,7 @@ for (let i = 0; i < M; i++) {
 	if (exist) existColCount++;
 }
 
+row = N - existRowCount;
+col = M - existColCount;
+
 console.log(Math.max(row, col));
